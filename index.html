@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('https://png.pngtree.com/background/20210712/original/pngtree-modern-double-color-futuristic-neon-background-picture-image_1181573.jpg');
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 50vh;
+            height: 50vh;
+            background-color: whitesmoke;
+            padding: 20px;
+        }
+        .facebook{
+            background-color: rgb(61, 61, 228);
+            display: block;
+            text-decoration: none;
+            color: white;
+            padding:10px 0;
+            text-align: center;
+            border-radius: 5px;
+            flex: 1;
+        }
+        .Google{
+            background-color: rgb(239, 82, 51);
+            display: block;
+            text-decoration: none;
+            color: white;
+            padding:10px 0;
+            text-align: center;
+            border-radius: 5px;
+            flex: 1;
+        }
+        .social{
+            display: flex;
+            gap:10px;
+        }
+        input{
+            padding: 10px;
+            border: none;
+            box-shadow: 1px 1px 1px 1px rgb(188, 188, 188);
+        }
+        .inputs{
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            gap: 10px;
+        }
+        .button{
+            background-color: rgb(2, 161, 2);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Sign up</h2>
+        <div class="social">
+            <a href="" class="facebook">Facebook</a>
+            <a href="" class="Google">Google</a>
+        </div>
+        <div class="inputs">
+            <input type="text" placeholder="Username">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Choose Password">
+            <input type="password" placeholder="Confirm Password">
+            <div class="button">Create Account</div>
+        </div>
+    </div>
+</body>
+</html>
